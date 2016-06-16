@@ -33,7 +33,7 @@ ProgramParameters params = { 0 };
 int main(int argc, char **argv)
 {
 	setlocale( LC_ALL, "" );
-    bindtextdomain( "hardinfo", "/usr/share/locale" );
+    bindtextdomain( "hardinfo", "/usr/local/share/locale" );
     textdomain( "hardinfo" );
     
     GSList *modules;
